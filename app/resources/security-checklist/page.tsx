@@ -43,7 +43,7 @@ export default function SecurityChecklistPage() {
               </h1>
               <p className="text-xl text-muted-foreground">A comprehensive guide to securing your digital life.</p>
               <Button size="lg" className="gap-2 mt-4" asChild>
-                <a href="/resources/cybersecurity-checklist.pdf" download>
+                <a href="cybersecurity-checklist.pdf" download>
                   Download PDF Version
                   <Download className="h-4 w-4" />
                 </a>

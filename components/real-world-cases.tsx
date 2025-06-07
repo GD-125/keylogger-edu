@@ -16,7 +16,7 @@ export default function RealWorldCases() {
       icon: <Building className="h-5 w-5" />,
       color: "bg-red-100 dark:bg-red-900/20",
       iconColor: "text-red-600 dark:text-red-400",
-      link: "/app/case-study/Target Data Breach.pdf",
+      link: "/case-study/target-data-breach.pdf",
     },
     {
       title: "Norwegian Government Attack (2018)",
@@ -26,7 +26,7 @@ export default function RealWorldCases() {
       icon: <ShieldAlert className="h-5 w-5" />,
       color: "bg-blue-100 dark:bg-blue-900/20",
       iconColor: "text-blue-600 dark:text-blue-400",
-      link: "/app/case-study/Norwegian Government Attack.pdf",
+      link: "/case-study/norwegian-government-attack.pdf",
     },
     {
       title: "University Exam Cheating Ring (2019)",
@@ -36,7 +36,7 @@ export default function RealWorldCases() {
       icon: <Users className="h-5 w-5" />,
       color: "bg-amber-100 dark:bg-amber-900/20",
       iconColor: "text-amber-600 dark:text-amber-400",
-      link: "/app/case-study/University Exam Cheating Ring.pdf",
+      link: "/case-study/university-exam-cheating-ring.pdf",
     },
     {
       title: "Banking Trojan Campaign (2020)",
@@ -46,7 +46,7 @@ export default function RealWorldCases() {
       icon: <AlertTriangle className="h-5 w-5" />,
       color: "bg-purple-100 dark:bg-purple-900/20",
       iconColor: "text-purple-600 dark:text-purple-400",
-      link: "/app/case-study/Banking Trojan Campaign.pdf",
+      link: "/case-study/banking-trojan-campaign.pdf",
     },
   ]
 

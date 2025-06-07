@@ -16,6 +16,7 @@ export default function RealWorldCases() {
       icon: <Building className="h-5 w-5" />,
       color: "bg-red-100 dark:bg-red-900/20",
       iconColor: "text-red-600 dark:text-red-400",
+      link: "/case-study/Target Data Breach.pdf",
     },
     {
       title: "Norwegian Government Attack (2018)",
@@ -25,6 +26,7 @@ export default function RealWorldCases() {
       icon: <ShieldAlert className="h-5 w-5" />,
       color: "bg-blue-100 dark:bg-blue-900/20",
       iconColor: "text-blue-600 dark:text-blue-400",
+      link: "/case-study/Norwegian Government Attack.pdf",
     },
     {
       title: "University Exam Cheating Ring (2019)",
@@ -34,6 +36,7 @@ export default function RealWorldCases() {
       icon: <Users className="h-5 w-5" />,
       color: "bg-amber-100 dark:bg-amber-900/20",
       iconColor: "text-amber-600 dark:text-amber-400",
+      link: "/case-study/University Exam Cheating Ring.pdf",
     },
     {
       title: "Banking Trojan Campaign (2020)",
@@ -43,6 +46,7 @@ export default function RealWorldCases() {
       icon: <AlertTriangle className="h-5 w-5" />,
       color: "bg-purple-100 dark:bg-purple-900/20",
       iconColor: "text-purple-600 dark:text-purple-400",
+      link: "/case-study/Banking Trojan Campaign.pdf",
     },
   ]
 
@@ -78,7 +82,7 @@ export default function RealWorldCases() {
             </CardContent>
             <CardFooter>
               <Button variant="outline" className="w-full gap-2" asChild>
-                <Link href="#">
+                <Link href={item.link}>
                   Read Full Case Study <ExternalLink className="h-4 w-4" />
                 </Link>
               </Button>
@@ -89,4 +93,3 @@ export default function RealWorldCases() {
     </div>
   )
 }
-

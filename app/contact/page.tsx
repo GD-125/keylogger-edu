@@ -94,17 +94,17 @@ export default function ContactPage() {
               {[
                 {
                   title: "Email Us",
-                  info: "info@cybersafe-edu.com",
+                  info: "info.devqueens@gmail.com",
                   icon: <Mail className="h-6 w-6 text-primary" />,
                 },
                 {
                   title: "Call Us",
-                  info: "+1 (555) 123-4567",
+                  info: "+91 9363202115",
                   icon: <Phone className="h-6 w-6 text-primary" />,
                 },
                 {
                   title: "Visit Us",
-                  info: "123 Security Ave, Cybertown, CT 10101",
+                  info: "Updated Soon",
                   icon: <MapPin className="h-6 w-6 text-primary" />,
                 },
               ].map((item, index) => (
@@ -131,7 +131,7 @@ export default function ContactPage() {
         </section>
 
         {/* Contact Form */}
-        <section className="py-16">
+{/*         <section className="py-16">
           <div className="container">
             <motion.div
               className="max-w-3xl mx-auto"
@@ -237,7 +237,7 @@ export default function ContactPage() {
             </motion.div>
           </div>
         </section>
-
+ */}
         {/* FAQ Section */}
         <section className="py-16 bg-muted/50 dark:bg-muted/10">
           <div className="container">

@@ -190,14 +190,14 @@ export default function PrivacyPage() {
                   </p>
                   <div className="bg-muted/50 p-4 rounded-md">
                     <p className="font-medium">CyberSafe Education</p>
-                    <p className="text-muted-foreground">Email: privacy@cybersafe-edu.com</p>
-                    <p className="text-muted-foreground">Address: 123 Security Ave, Cybertown, CT 10101</p>
-                    <p className="text-muted-foreground">Phone: +1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">Email: info.devqueens@gmail.com</p>
+                    <p className="text-muted-foreground">Address: Updated Soon</p>
+                    <p className="text-muted-foreground">Phone: +91 9363202115</p>
                   </div>
                 </div>
 
                 <div className="pt-6 border-t text-sm text-muted-foreground">
-                  <p>Last Updated: March 25, 2023</p>
+                  <p>Last Updated: March 25, 2025</p>
                 </div>
               </div>
             </div>
@@ -271,12 +271,20 @@ export default function PrivacyPage() {
             </div>
           </div>
 
-          <div className="mt-12 pt-6 border-t text-center text-muted-foreground">
-            <p>© {new Date().getFullYear()} CyberSafe Education. All rights reserved.</p>
-            <p className="mt-2">
-              Designed and Developed by <span className="font-bold text-primary">Dev Queens</span>
-            </p>
-          </div>
+         <div className="mt-12 pt-6 border-t text-center text-muted-foreground">
+          <p>© {new Date().getFullYear()} CyberSafe Education. All rights reserved.</p>
+          <p className="mt-2">
+            Designed and Developed by{" "}
+            <a
+              href="https://devqueens.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold text-primary hover:underline"
+            >
+              DevQueens
+            </a>
+          </p>
+        </div>
         </div>
       </footer>
     </div>

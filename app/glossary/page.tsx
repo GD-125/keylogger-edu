@@ -333,7 +333,7 @@ export default function GlossaryPage() {
         </section>
 
         {/* Download Section */}
-        <section className="py-16">
+{/*         <section className="py-16">
           <div className="container">
             <motion.div
               className="max-w-4xl mx-auto bg-gradient-to-r from-primary/10 to-primary/5 dark:from-primary/20 dark:to-primary/10 rounded-xl p-8 md:p-12 border border-primary/20 text-center space-y-6"
@@ -354,7 +354,7 @@ export default function GlossaryPage() {
               </Button>
             </motion.div>
           </div>
-        </section>
+        </section> */}
       </main>
 
       <footer className="border-t py-12 bg-muted/30">
@@ -426,7 +426,15 @@ export default function GlossaryPage() {
           <div className="mt-12 pt-6 border-t text-center text-muted-foreground">
             <p>© {new Date().getFullYear()} CyberSafe Education. All rights reserved.</p>
             <p className="mt-2">
-              Designed and Developed by <span className="font-bold text-primary">Dev Queens</span>
+              Designed and Developed by{" "}
+              <a
+                href="https://devqueens.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold text-primary hover:underline"
+              >
+                DevQueens
+              </a>
             </p>
           </div>
         </div>

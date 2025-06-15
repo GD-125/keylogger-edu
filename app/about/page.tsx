@@ -86,7 +86,7 @@ export default function AboutPage() {
                     <div className="h-24 w-24 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
                       <Shield className="h-12 w-12 text-primary" />
                     </div>
-                    <h3 className="text-2xl font-bold">Founded in 2018</h3>
+                    <h3 className="text-2xl font-bold">Founded in 2022</h3>
                     <p className="text-muted-foreground max-w-xs mx-auto">
                       With a mission to democratize cybersecurity knowledge
                     </p>
@@ -117,7 +117,7 @@ export default function AboutPage() {
               </p>
             </motion.div>
 
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+{/*             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
                 {
                   name: "Dr. Sarah Chen",
@@ -181,7 +181,7 @@ export default function AboutPage() {
                   </Card>
                 </motion.div>
               ))}
-            </div>
+            </div> */}
           </div>
         </section>
 
@@ -337,7 +337,15 @@ export default function AboutPage() {
           <div className="mt-12 pt-6 border-t text-center text-muted-foreground">
             <p>© {new Date().getFullYear()} CyberSafe Education. All rights reserved.</p>
             <p className="mt-2">
-              Designed and Developed by <span className="font-bold text-primary">Dev Queens</span>
+              Designed and Developed by{" "}
+              <a
+                href="https://devqueens.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold text-primary hover:underline"
+              >
+                DevQueens
+              </a>
             </p>
           </div>
         </div>

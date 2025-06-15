@@ -9,7 +9,12 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "Keylogger Awareness & Prevention | CyberSafe Education",
   description: "Learn about keyloggers, how they work, and how to protect yourself from this cybersecurity threat.",
-    generator: 'v0.dev'
+  icons: {
+    icon: [
+      { url: "/logo.png", sizes: "32x32", type: "image/png" },
+    ],
+    shortcut: "/logo.png",
+  },
 }
 
 export default function RootLayout({

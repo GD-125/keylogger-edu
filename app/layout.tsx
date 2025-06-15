@@ -11,9 +11,9 @@ export const metadata = {
   description: "Learn about keyloggers, how they work, and how to protect yourself from this cybersecurity threat.",
   icons: {
     icon: [
-      { url: "/logo.png", sizes: "32x32", type: "image/png" },
+      { url: "/logo.jpg", sizes: "64x64", type: "image/jpg" },
     ],
-    shortcut: "/logo.png",
+    shortcut: "/logo.jpg",
   },
 }
 

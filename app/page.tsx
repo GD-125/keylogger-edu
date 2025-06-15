@@ -698,25 +698,25 @@ export default function Home() {
                       title: "Complete Guide to Personal Cybersecurity",
                       description: "A comprehensive guide covering all aspects of personal digital security.",
                       icon: <FileText className="h-5 w-5" />,
-                      link: "/guides/personal-cybersecurity",
+                      link: "/guides/personal-cybersecurity.pdf",
                     },
                     {
                       title: "Identifying and Removing Malware",
                       description: "Step-by-step instructions for detecting and eliminating various types of malware.",
                       icon: <Search className="h-5 w-5" />,
-                      link: "/guides/malware-removal",
+                      link: "/guides/malware-removal.pdf",
                     },
                     {
                       title: "Secure Password Management",
                       description: "Best practices for creating and managing strong, unique passwords.",
                       icon: <Lock className="h-5 w-5" />,
-                      link: "/guides/password-management",
+                      link: "/guides/password-management.pdf",
                     },
                     {
                       title: "Privacy Protection Guide",
                       description: "Techniques to safeguard your personal information online.",
                       icon: <Shield className="h-5 w-5" />,
-                      link: "/guides/privacy-protection",
+                      link: "/guides/privacy-protection.pdf",
                     },
                   ].map((item, index) => (
                     <Card key={index} className="transition-all hover:shadow-md hover:border-primary/50">
@@ -749,25 +749,25 @@ export default function Home() {
                       title: "Anti-Keylogger Software",
                       description: "Specialized tools designed to detect and block keylogging activities.",
                       icon: <ShieldAlert className="h-5 w-5" />,
-                      link: "/tools/anti-keylogger",
+                      link: "/tools/anti-keylogger.pdf",
                     },
                     {
                       title: "Password Managers",
                       description: "Secure applications for generating and storing complex passwords.",
                       icon: <Lock className="h-5 w-5" />,
-                      link: "/tools/password-managers",
+                      link: "/tools/password-managers.pdf",
                     },
                     {
                       title: "Virtual Keyboards",
                       description: "On-screen keyboards that help bypass hardware keyloggers.",
                       icon: <Code className="h-5 w-5" />,
-                      link: "/tools/virtual-keyboards",
+                      link: "/tools/virtual-keyboards.pdf",
                     },
                     {
                       title: "Network Monitoring Tools",
                       description: "Applications that monitor network traffic for suspicious activities.",
                       icon: <Server className="h-5 w-5" />,
-                      link: "/tools/network-monitoring",
+                      link: "/tools/network-monitoring.pdf",
                     },
                   ].map((item, index) => (
                     <Card key={index} className="transition-all hover:shadow-md hover:border-primary/50">
@@ -800,25 +800,25 @@ export default function Home() {
                       title: "Introduction to Cybersecurity",
                       description: "A beginner-friendly course covering the fundamentals of digital security.",
                       icon: <BookOpen className="h-5 w-5" />,
-                      link: "/courses/intro-cybersecurity",
+                      link: "/courses/intro-cybersecurity.pdf",
                     },
                     {
                       title: "Advanced Malware Analysis",
                       description: "Learn techniques for analyzing and understanding malicious software.",
                       icon: <Code className="h-5 w-5" />,
-                      link: "/courses/malware-analysis",
+                      link: "/courses/malware-analysis.pdf",
                     },
                     {
                       title: "Ethical Hacking Fundamentals",
                       description: "Understand security from an offensive perspective to better defend systems.",
                       icon: <Shield className="h-5 w-5" />,
-                      link: "/courses/ethical-hacking",
+                      link: "/courses/ethical-hacking.pdf",
                     },
                     {
                       title: "Digital Forensics",
                       description: "Techniques for investigating digital security incidents and data breaches.",
                       icon: <Search className="h-5 w-5" />,
-                      link: "/courses/digital-forensics",
+                      link: "/courses/digital-forensics.pdf",
                     },
                   ].map((item, index) => (
                     <Card key={index} className="transition-all hover:shadow-md hover:border-primary/50">
@@ -851,19 +851,19 @@ export default function Home() {
                       title: "The Evolution of Keyloggers",
                       description: "How keylogging technology has evolved over the years and what to expect next.",
                       icon: <Info className="h-5 w-5" />,
-                      link: "/articles/keylogger-evolution",
+                      link: "/articles/keylogger-evolution.pdf",
                     },
                     {
                       title: "Famous Data Breaches Involving Keyloggers",
                       description: "Analysis of major security incidents where keyloggers played a central role.",
                       icon: <Database className="h-5 w-5" />,
-                      link: "/articles/keylogger-data-breaches",
+                      link: "/articles/keylogger-data-breaches.pf",
                     },
                     {
                       title: "The Psychology of Social Engineering",
                       description: "Understanding the human factors that make social engineering attacks successful.",
                       icon: <BookOpen className="h-5 w-5" />,
-                      link: "/articles/social-engineering-psychology",
+                      link: "/articles/social-engineering-psychology.pdf",
                     },
                     {
                       title: "Emerging Threats in Cybersecurity",
@@ -998,7 +998,15 @@ export default function Home() {
           <div className="mt-12 pt-6 border-t text-center text-muted-foreground">
             <p>© {new Date().getFullYear()} CyberSafe Education. All rights reserved.</p>
             <p className="mt-2">
-              Designed and Developed by <span className="font-bold text-primary">Dev Queens</span>
+              Designed and Developed by{" "}
+              <a
+                href="https://devqueens.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold text-primary hover:underline"
+              >
+                DevQueens
+              </a>
             </p>
           </div>
         </div>

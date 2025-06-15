@@ -79,7 +79,7 @@ export default function BlogPage() {
         </section>
 
         {/* Featured Article */}
-        <section className="py-12">
+{/*         <section className="py-12">
           <div className="container">
             <motion.div
               className="grid md:grid-cols-2 gap-8 items-center"
@@ -119,7 +119,7 @@ export default function BlogPage() {
             </motion.div>
           </div>
         </section>
-
+ */}
         {/* Recent Articles */}
         <section className="py-16 bg-muted/50 dark:bg-muted/10">
           <div className="container">
@@ -224,7 +224,7 @@ export default function BlogPage() {
         </section>
 
         {/* Newsletter */}
-        <section className="py-16">
+{/*         <section className="py-16">
           <div className="container">
             <motion.div
               className="max-w-4xl mx-auto bg-gradient-to-r from-primary/10 to-primary/5 dark:from-primary/20 dark:to-primary/10 rounded-xl p-8 md:p-12 border border-primary/20 text-center space-y-6"
@@ -245,7 +245,7 @@ export default function BlogPage() {
               <p className="text-xs text-muted-foreground">We respect your privacy. Unsubscribe at any time.</p>
             </motion.div>
           </div>
-        </section>
+        </section> */}
       </main>
 
       <footer className="border-t py-12 bg-muted/30">
@@ -317,7 +317,15 @@ export default function BlogPage() {
           <div className="mt-12 pt-6 border-t text-center text-muted-foreground">
             <p>© {new Date().getFullYear()} CyberSafe Education. All rights reserved.</p>
             <p className="mt-2">
-              Designed and Developed by <span className="font-bold text-primary">Dev Queens</span>
+              Designed and Developed by{" "}
+              <a
+                href="https://devqueens.vercel.app" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold text-primary hover:underline"
+              >
+                DevQueens
+              </a>
             </p>
           </div>
         </div>

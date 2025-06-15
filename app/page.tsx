@@ -800,25 +800,25 @@ export default function Home() {
                       title: "Introduction to Cybersecurity",
                       description: "A beginner-friendly course covering the fundamentals of digital security.",
                       icon: <BookOpen className="h-5 w-5" />,
-                      link: "/courses/intro-cybersecurity.pdf",
+                      link: "https://www.coursera.org/learn/foundations-of-cybersecurity",
                     },
                     {
                       title: "Advanced Malware Analysis",
                       description: "Learn techniques for analyzing and understanding malicious software.",
                       icon: <Code className="h-5 w-5" />,
-                      link: "/courses/malware-analysis.pdf",
+                      link: "https://www.cybrary.it/course/advanced-malware-analysis-redux",
                     },
                     {
                       title: "Ethical Hacking Fundamentals",
                       description: "Understand security from an offensive perspective to better defend systems.",
                       icon: <Shield className="h-5 w-5" />,
-                      link: "/courses/ethical-hacking.pdf",
+                      link: "https://www.eccouncil.org/train-certify/ethical-hacking-essentials-ehe/",
                     },
                     {
                       title: "Digital Forensics",
                       description: "Techniques for investigating digital security incidents and data breaches.",
                       icon: <Search className="h-5 w-5" />,
-                      link: "/courses/digital-forensics.pdf",
+                      link: "https://www.eccouncil.org/train-certify/digital-forensics-essentials-dfe/",
                     },
                   ].map((item, index) => (
                     <Card key={index} className="transition-all hover:shadow-md hover:border-primary/50">
@@ -851,25 +851,25 @@ export default function Home() {
                       title: "The Evolution of Keyloggers",
                       description: "How keylogging technology has evolved over the years and what to expect next.",
                       icon: <Info className="h-5 w-5" />,
-                      link: "/articles/keylogger-evolution.pdf",
+                      link: "/article/keylogger-evolution.pdf",
                     },
                     {
                       title: "Famous Data Breaches Involving Keyloggers",
                       description: "Analysis of major security incidents where keyloggers played a central role.",
                       icon: <Database className="h-5 w-5" />,
-                      link: "/articles/keylogger-data-breaches.pf",
+                      link: "/article/keylogger-data-breaches.pf",
                     },
                     {
                       title: "The Psychology of Social Engineering",
                       description: "Understanding the human factors that make social engineering attacks successful.",
                       icon: <BookOpen className="h-5 w-5" />,
-                      link: "/articles/social-engineering-psychology.pdf",
+                      link: "/article/social-engineering-psychology.pdf",
                     },
                     {
                       title: "Emerging Threats in Cybersecurity",
                       description: "New and evolving digital threats that everyone should be aware of.",
                       icon: <AlertTriangle className="h-5 w-5" />,
-                      link: "/articles/emerging-threats",
+                      link: "/article/emerging-threats",
                     },
                   ].map((item, index) => (
                     <Card key={index} className="transition-all hover:shadow-md hover:border-primary/50">

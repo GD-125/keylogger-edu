@@ -69,8 +69,8 @@ export default function ToolsPage() {
                       description:
                         "Specialized tools designed to detect and block keylogging activities on your devices.",
                       category: "Protection",
-                      rating: 4.8,
-                      free: true,
+                      // rating: 4.8,
+                      // free: true,
                       icon: <Tool className="h-8 w-8 text-primary" />,
                       slug: "anti-keylogger",
                     },
@@ -79,8 +79,8 @@ export default function ToolsPage() {
                       description:
                         "Secure applications for generating and storing complex passwords across all your accounts.",
                       category: "Security",
-                      rating: 4.9,
-                      free: true,
+                      // rating: 4.9,
+                      // free: true,
                       icon: <Tool className="h-8 w-8 text-primary" />,
                       slug: "password-managers",
                     },
@@ -89,8 +89,8 @@ export default function ToolsPage() {
                       description:
                         "On-screen keyboards that help bypass hardware keyloggers and protect against keystroke capture.",
                       category: "Protection",
-                      rating: 4.5,
-                      free: true,
+                      // rating: 4.5,
+                      // free: true,
                       icon: <Tool className="h-8 w-8 text-primary" />,
                       slug: "virtual-keyboards",
                     },
@@ -99,8 +99,8 @@ export default function ToolsPage() {
                       description:
                         "Applications that monitor network traffic for suspicious activities and unauthorized connections.",
                       category: "Monitoring",
-                      rating: 4.7,
-                      free: false,
+                      // rating: 4.7,
+                      // free: false,
                       icon: <Tool className="h-8 w-8 text-primary" />,
                       slug: "network-monitoring",
                     },
@@ -109,8 +109,8 @@ export default function ToolsPage() {
                       description:
                         "Comprehensive protection against malware, including keyloggers, trojans, and other threats.",
                       category: "Protection",
-                      rating: 4.6,
-                      free: true,
+                      // rating: 4.6,
+                      // free: true,
                       icon: <Tool className="h-8 w-8 text-primary" />,
                       slug: "antivirus-software",
                     },
@@ -119,8 +119,8 @@ export default function ToolsPage() {
                       description:
                         "Software for encrypting your files, folders, and communications to protect sensitive data.",
                       category: "Privacy",
-                      rating: 4.8,
-                      free: true,
+                      // rating: 4.8,
+                      // free: true,
                       icon: <Tool className="h-8 w-8 text-primary" />,
                       slug: "encryption-tools",
                     },
@@ -129,8 +129,8 @@ export default function ToolsPage() {
                       description:
                         "Virtual Private Networks that encrypt your internet connection and protect your online privacy.",
                       category: "Privacy",
-                      rating: 4.7,
-                      free: false,
+                      // rating: 4.7,
+                      // free: false,
                       icon: <Tool className="h-8 w-8 text-primary" />,
                       slug: "vpn-services",
                     },
@@ -139,8 +139,8 @@ export default function ToolsPage() {
                       description:
                         "Applications that add an extra layer of security to your accounts beyond passwords.",
                       category: "Security",
-                      rating: 4.9,
-                      free: true,
+                      // rating: 4.9,
+                      // free: true,
                       icon: <Tool className="h-8 w-8 text-primary" />,
                       slug: "two-factor-authentication",
                     },
@@ -149,8 +149,8 @@ export default function ToolsPage() {
                       description:
                         "Tools that scan your system for vulnerabilities, outdated software, and security risks.",
                       category: "Monitoring",
-                      rating: 4.6,
-                      free: true,
+                      // rating: 4.6,
+                      // free: true,
                       icon: <Tool className="h-8 w-8 text-primary" />,
                       slug: "security-scanners",
                     },
@@ -342,7 +342,7 @@ export default function ToolsPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-16 bg-muted/50 dark:bg-muted/10">
+{/*         <section className="py-16 bg-muted/50 dark:bg-muted/10">
           <div className="container">
             <motion.div
               className="max-w-4xl mx-auto bg-gradient-to-r from-primary/10 to-primary/5 dark:from-primary/20 dark:to-primary/10 rounded-xl p-8 md:p-12 border border-primary/20 text-center space-y-6"
@@ -363,7 +363,7 @@ export default function ToolsPage() {
               </Button>
             </motion.div>
           </div>
-        </section>
+        </section> */}
       </main>
 
       <footer className="border-t py-12 bg-muted/30">
@@ -435,7 +435,15 @@ export default function ToolsPage() {
           <div className="mt-12 pt-6 border-t text-center text-muted-foreground">
             <p>© {new Date().getFullYear()} CyberSafe Education. All rights reserved.</p>
             <p className="mt-2">
-              Designed and Developed by <span className="font-bold text-primary">Dev Queens</span>
+              Designed and Developed by{" "}
+              <a
+                href="https://devqueens.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold text-primary hover:underline"
+              >
+                DevQueens
+              </a>
             </p>
           </div>
         </div>

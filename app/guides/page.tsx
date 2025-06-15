@@ -385,7 +385,15 @@ export default function GuidesPage() {
           <div className="mt-12 pt-6 border-t text-center text-muted-foreground">
             <p>© {new Date().getFullYear()} CyberSafe Education. All rights reserved.</p>
             <p className="mt-2">
-              Designed and Developed by <span className="font-bold text-primary">Dev Queens</span>
+              Designed and Developed by{" "}
+              <a
+                href="https://devqueens.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold text-primary hover:underline"
+              >
+                DevQueens
+              </a>
             </p>
           </div>
         </div>

@@ -61,7 +61,7 @@ export default function AboutPage() {
               >
                 <h2 className="text-3xl font-bold">Our Story</h2>
                 <p className="text-muted-foreground">
-                  CyberSafe Education was founded in 2018 by a team of cybersecurity professionals who recognized a
+                  CyberSafe Education was founded in 2022 by a team of cybersecurity enthusiastic popularly known as DevQueens who recognized a
                   critical gap in how security concepts were being taught to the general public.
                 </p>
                 <p className="text-muted-foreground">
@@ -98,7 +98,7 @@ export default function AboutPage() {
         </section>
 
         {/* Our Team */}
-        <section className="py-16">
+{/*         <section className="py-16">
           <div className="container">
             <motion.div
               className="text-center space-y-4 max-w-3xl mx-auto mb-12"
@@ -115,7 +115,7 @@ export default function AboutPage() {
                 A diverse group of cybersecurity experts, educators, and designers working together to create
                 exceptional learning experiences.
               </p>
-            </motion.div>
+            </motion.div> */}
 
 {/*             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
@@ -182,8 +182,8 @@ export default function AboutPage() {
                 </motion.div>
               ))}
             </div> */}
-          </div>
-        </section>
+{/*           </div>
+        </section> */}
 
         {/* Our Values */}
         <section className="py-16 bg-muted/50 dark:bg-muted/10">

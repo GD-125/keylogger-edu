@@ -9,7 +9,7 @@ CyberSafe Education's Keylogger Awareness & Prevention Portal is a content-rich 
 ## Live Preview
 
 - Local development: http://localhost:3000
-- Production: Add your deployed URL here (e.g., https://your-domain.vercel.app)
+- Production: Add your deployed URL here (e.g., [https://edu-keylogger.vercel.app](https://edu-keylogger.vercel.app/))
 
 ## Features
 

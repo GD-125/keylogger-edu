@@ -229,7 +229,7 @@ Custom Domains
 
 ## License
 
-MIT License. You’re free to use, modify, and distribute with attribution.
+Licensed under the Apache License, Version 2.0 — you are free to use, modify, and distribute with attribution and inclusion of the license text.
 
 ## Acknowledgments
 
